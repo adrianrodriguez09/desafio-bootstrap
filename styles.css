@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    border: 2px solid black;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    text-decoration: overline;
+}
+.card .card-body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    gap: 20px;
+    
+}
+img{
+ width: 100%;
+
+}
